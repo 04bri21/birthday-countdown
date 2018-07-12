@@ -1,8 +1,8 @@
 import React from 'react';
 
-Button = (title) => {
+Button = (title, callback) => {
     return (
-        <button className= "button">
+        <button className= "button" onClick={callback}>
             {title}
         </button>
     )
