@@ -1,6 +1,7 @@
 import React, {Componet} from 'react';
 import Gradient from '../gradient';
 import ScheduleCourse from './scheduleCourse';
+import ProgressTracker from './scheduleCourse';
 
 class Schedule extends Componet {
     render(){
@@ -10,6 +11,7 @@ class Schedule extends Componet {
                 <ScheduleCourse title={'Problem Solving'}/>
                 <ScheduleCourse title={'Problem Solving'}/>
                 <ScheduleCourse title={'Problem Solving'}/>
+                <ProgressTracker/>
                 <Gradient/>
             </div>
         )
