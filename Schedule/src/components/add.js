@@ -3,7 +3,7 @@ class Add extends Componet {
     render() {
         return (
             <div className={`${this.props.className}add`}>
-            +
+            
             </div>
         )
     }

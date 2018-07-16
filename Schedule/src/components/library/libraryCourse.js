@@ -6,7 +6,7 @@ class LibraryCourse extends Componet {
         return(
             <div className="library-course">
             <label className="Library-course__title">Problem Solving</label>
-            <Arrow className="library-course__arrow">
+            <Arrow className="library-course__arrow"/>
         <Add className=" library-course__add"/>
         {/*action button componet*/}
         <div className="library-course__description">
